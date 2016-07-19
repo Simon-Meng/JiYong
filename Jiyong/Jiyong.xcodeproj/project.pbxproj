@@ -10,9 +10,11 @@
 		06A4E8B76C6BC609E2B42ACA /* Pods_JiyongTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B15D938A37258FCBA7BCFC /* Pods_JiyongTests.framework */; };
 		0C827CFBFB91DDA19C249C00 /* Pods_JiyongUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC882A35118AE17FD149A8E9 /* Pods_JiyongUITests.framework */; };
 		23285D421666DA0CAB86D74E /* Pods_Jiyong.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A0DDCA6C9BB549E7DAC7166 /* Pods_Jiyong.framework */; };
+		9DA393E91D3DF3D00046A3DD /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA393E81D3DF3D00046A3DD /* MainViewController.swift */; };
+		9DA393EB1D3DF3F50046A3DD /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA393EA1D3DF3F50046A3DD /* UserViewController.swift */; };
+		9DA393FF1D3E0B720046A3DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DA393FD1D3E0B720046A3DD /* Main.storyboard */; };
 		F4797F6D1D37CA4000A2EB4B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4797F6C1D37CA4000A2EB4B /* AppDelegate.swift */; };
 		F4797F6F1D37CA4000A2EB4B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4797F6E1D37CA4000A2EB4B /* ViewController.swift */; };
-		F4797F721D37CA4000A2EB4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4797F701D37CA4000A2EB4B /* Main.storyboard */; };
 		F4797F741D37CA4000A2EB4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4797F731D37CA4000A2EB4B /* Assets.xcassets */; };
 		F4797F771D37CA4000A2EB4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4797F751D37CA4000A2EB4B /* LaunchScreen.storyboard */; };
 		F4797F821D37CA4000A2EB4B /* JiyongTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4797F811D37CA4000A2EB4B /* JiyongTests.swift */; };
@@ -44,11 +46,15 @@
 		53A9321AFC6C7A05EDFA07F9 /* Pods-Jiyong.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jiyong.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Jiyong/Pods-Jiyong.debug.xcconfig"; sourceTree = "<group>"; };
 		5FD73AEBF895F1D0BBC027A7 /* Pods-JiyongTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JiyongTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JiyongTests/Pods-JiyongTests.release.xcconfig"; sourceTree = "<group>"; };
 		6220660BADB07787EC5FF8E8 /* Pods-Jiyong.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jiyong.release.xcconfig"; path = "Pods/Target Support Files/Pods-Jiyong/Pods-Jiyong.release.xcconfig"; sourceTree = "<group>"; };
+		9DA393E81D3DF3D00046A3DD /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		9DA393EA1D3DF3F50046A3DD /* UserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
+		9DA393EC1D3E00C70046A3DD /* RAMAnimatedTabBarController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RAMAnimatedTabBarController.framework; path = "Pods/../build/Debug-iphoneos/RAMAnimatedTabBarController/RAMAnimatedTabBarController.framework"; sourceTree = "<group>"; };
+		9DA393ED1D3E00C70046A3DD /* SnapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SnapKit.framework; path = "Pods/../build/Debug-iphoneos/SnapKit/SnapKit.framework"; sourceTree = "<group>"; };
+		9DA393FE1D3E0B720046A3DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D39BCC28D824276F3F2BA132 /* Pods-JiyongUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JiyongUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JiyongUITests/Pods-JiyongUITests.release.xcconfig"; sourceTree = "<group>"; };
 		F4797F691D37CA3F00A2EB4B /* Jiyong.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jiyong.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4797F6C1D37CA4000A2EB4B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F4797F6E1D37CA4000A2EB4B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F4797F711D37CA4000A2EB4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F4797F731D37CA4000A2EB4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F4797F761D37CA4000A2EB4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F4797F781D37CA4000A2EB4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -89,6 +95,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9DA393E11D3DDDF60046A3DD /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9DA393E81D3DF3D00046A3DD /* MainViewController.swift */,
+				9DA393EA1D3DF3F50046A3DD /* UserViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
 		E9EAEC2C371087C8384381DD /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -105,6 +120,8 @@
 		EC851EFA26BEF5AD4E7FBF79 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9DA393EC1D3E00C70046A3DD /* RAMAnimatedTabBarController.framework */,
+				9DA393ED1D3E00C70046A3DD /* SnapKit.framework */,
 				0A0DDCA6C9BB549E7DAC7166 /* Pods_Jiyong.framework */,
 				00B15D938A37258FCBA7BCFC /* Pods_JiyongTests.framework */,
 				FC882A35118AE17FD149A8E9 /* Pods_JiyongUITests.framework */,
@@ -137,9 +154,10 @@
 		F4797F6B1D37CA3F00A2EB4B /* Jiyong */ = {
 			isa = PBXGroup;
 			children = (
+				9DA393FD1D3E0B720046A3DD /* Main.storyboard */,
+				9DA393E11D3DDDF60046A3DD /* Controllers */,
 				F4797F6C1D37CA4000A2EB4B /* AppDelegate.swift */,
 				F4797F6E1D37CA4000A2EB4B /* ViewController.swift */,
-				F4797F701D37CA4000A2EB4B /* Main.storyboard */,
 				F4797F731D37CA4000A2EB4B /* Assets.xcassets */,
 				F4797F751D37CA4000A2EB4B /* LaunchScreen.storyboard */,
 				F4797F781D37CA4000A2EB4B /* Info.plist */,
@@ -280,9 +298,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DA393FF1D3E0B720046A3DD /* Main.storyboard in Resources */,
 				F4797F771D37CA4000A2EB4B /* LaunchScreen.storyboard in Resources */,
 				F4797F741D37CA4000A2EB4B /* Assets.xcassets in Resources */,
-				F4797F721D37CA4000A2EB4B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,6 +448,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DA393E91D3DF3D00046A3DD /* MainViewController.swift in Sources */,
+				9DA393EB1D3DF3F50046A3DD /* UserViewController.swift in Sources */,
 				F4797F6F1D37CA4000A2EB4B /* ViewController.swift in Sources */,
 				F4797F6D1D37CA4000A2EB4B /* AppDelegate.swift in Sources */,
 			);
@@ -467,10 +487,10 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		F4797F701D37CA4000A2EB4B /* Main.storyboard */ = {
+		9DA393FD1D3E0B720046A3DD /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F4797F711D37CA4000A2EB4B /* Base */,
+				9DA393FE1D3E0B720046A3DD /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -576,6 +596,11 @@
 			baseConfigurationReference = 53A9321AFC6C7A05EDFA07F9 /* Pods-Jiyong.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/RAMAnimatedTabBarController",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/SnapKit",
+				);
 				INFOPLIST_FILE = Jiyong/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -589,6 +614,11 @@
 			baseConfigurationReference = 6220660BADB07787EC5FF8E8 /* Pods-Jiyong.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/RAMAnimatedTabBarController",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/SnapKit",
+				);
 				INFOPLIST_FILE = Jiyong/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

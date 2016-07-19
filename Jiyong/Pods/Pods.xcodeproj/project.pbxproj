@@ -7,100 +7,133 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		163C745592C883AC1F6CF36D2EB7075C /* RAMAnimatedTabBarController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 42654EBCDD1653775E88840823C27686 /* RAMAnimatedTabBarController-dummy.m */; };
-		17C957B9F9F44679DB83820BB0A190D9 /* Pods-Jiyong-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E88FD53A3AF55BC8F811BEC855D8827E /* Pods-Jiyong-dummy.m */; };
-		188EB0D2D497DEB94E5A3D1A054680CD /* RAMRotationAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84023D8039CB078CEEB1EDF8D240DAF5 /* RAMRotationAnimation.swift */; };
+		066F02A11DC32437BE15D7F964D401B6 /* RAMRotationAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0A764D9684EFECC0BAFEE8C8A9B979 /* RAMRotationAnimation.swift */; };
+		17C61B3ADD180C2BAAC3FD4495B49992 /* SnapKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E5C617877DA5B0EFCACF8591EFD89B2 /* SnapKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1BA2AC3CFEC452AC232A0D1D9DF6F008 /* SnapKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AC06A2745888CF2994EDE03ADE0FAE28 /* SnapKit-dummy.m */; };
+		1FB67EE5093076986BC256B7495BE8CA /* ConstraintAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDE1C81D7B8459FA5C29C494E1BF40A /* ConstraintAttributes.swift */; };
 		239404E891B58C7B300C9AEA6CD9471E /* Pods-JiyongUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7171A32F0658776444A835683C41D6AF /* Pods-JiyongUITests-dummy.m */; };
-		2B6291DCDFE62CE140232F67222BC2BF /* Pods-JiyongTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AE68071FEBE410F6AB1B10380B0A3D5 /* Pods-JiyongTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E52EAEE7A560E741A5E6AC0819DE6E8 /* View+SnapKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A8EA05072942DE2281EE7D0A852250 /* View+SnapKit.swift */; };
+		30168B3855A77730E22241168FC9CA78 /* EdgeInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 107576165E7F96BDA3553F4BD42EA039 /* EdgeInsets.swift */; };
+		31458F8AE01D279EA3F1032D534D0FF3 /* ViewController+SnapKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5274CF19AB3276E89A57A92F21E660D6 /* ViewController+SnapKit.swift */; };
+		31E0A3FFDC91DFD9B311FBFFC98DF8BC /* RAMTransitionItemAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD57698015949B28A45CCEDA65D96E31 /* RAMTransitionItemAnimations.swift */; };
 		42FA3170B131412BF2E8FCE02478057C /* Pods-JiyongUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DD573FA5BC508A2741969E418369C55 /* Pods-JiyongUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		69E4D1176AA9BF8193EC7686C880C250 /* RAMBounceAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2445545968E24E9401AF006077B5FD /* RAMBounceAnimation.swift */; };
-		6DCF4DE78B717018ED840BC3E10E6398 /* RAMFumeAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B515A64C42A3818CBD3F3A1902B8D443 /* RAMFumeAnimation.swift */; };
-		704FBCCF1DC5CBD349BEBB8860725D7B /* RAMBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69BAAB3A254E2F8C9888A9184B2F7B54 /* RAMBadge.swift */; };
-		71E8E79A36CA94D8C980B7FE31285B2C /* RAMTransitionItemAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C5D21B9D6706FBB1A35B9C7047F4913 /* RAMTransitionItemAnimations.swift */; };
-		9CD79AE06B7AD3E77C2B469B50FD4414 /* RAMAnimatedTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B219C7C94F74C9623C1D991F741D984E /* RAMAnimatedTabBarController.swift */; };
+		5277F9E3404E14DCC66A3D5E0587A0FC /* SnapKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = A302D562C7977E8D83B6A126CD747715 /* SnapKit.swift */; };
+		59C43251E4457DAFF50C26424AC814EF /* ConstraintRelation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8981759FF7319224E8135867D2E9E26D /* ConstraintRelation.swift */; };
+		6172E11D6283BC8E41E85AD317017A85 /* RAMFumeAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4BE09E48699F4DCEA7A1579C4A26F4 /* RAMFumeAnimation.swift */; };
+		63176BE0D08065BAE6428D8EB1CB6B30 /* RAMAnimatedTabBarController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 709EB04AE84935C75DC25A4B8840166C /* RAMAnimatedTabBarController-dummy.m */; };
+		6728E93502772D13428ABDD5C82AA569 /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CC250FD5BD68F38A4753ED43658109 /* Constraint.swift */; };
+		68704025503854E90075354803E14408 /* ConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADFD2220A28D08B105D9318A061AFD35 /* ConstraintItem.swift */; };
+		6AE1276288184512756A1DF1106F0375 /* RAMFrameItemAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1341DD8359A4DB3B2096770EE3C6D1F /* RAMFrameItemAnimation.swift */; };
+		6FDA74383D2DC4332671ABA0929F2670 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		7174FB990D38B2229DBB0C02E586E810 /* RAMItemAnimationProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C41A79C451B0772D9A3B84FD971BD7 /* RAMItemAnimationProtocol.swift */; };
+		8278252D0AFC1CD5F161829D444C287A /* RAMBounceAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D904A63DA17CE1FE4C10F150FDF76BF3 /* RAMBounceAnimation.swift */; };
+		8353F68EA86724972B535C501220B657 /* Debugging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9448D057ACA199922B57B7177C382D /* Debugging.swift */; };
+		870C7427D51AB53BDC0CBF59B5ECB110 /* ConstraintDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D8723241C07D3BB00C66E92C195DCB /* ConstraintDescription.swift */; };
+		8E73968FC7184932B6D391B938247206 /* RAMAnimatedTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82958E005DD2E17467E6505C43CA8B1B /* RAMAnimatedTabBarController.swift */; };
+		94449945381BD0026120BAFC175E30FA /* ConstraintMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FB69CCFCDD89152CED7889443066DE /* ConstraintMaker.swift */; };
+		95414F34AE71BA0A1572759CCE3593F5 /* Pods-JiyongTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DC38A6267CA088E0AC6EE56F99599484 /* Pods-JiyongTests-dummy.m */; };
+		9E46FF3242658F1E1D6A1C30B03A1AC5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		A158CF6C4AFAE3FDB052146D2DD439BF /* Pods-JiyongTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AE68071FEBE410F6AB1B10380B0A3D5 /* Pods-JiyongTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD537501456B9ED5F180D591109C8825 /* RAMAnimatedTabBarController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 112D5E52DBA81772423203596D8030D9 /* RAMAnimatedTabBarController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AE19269389CBD8654F42118547D11EB6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		B0FECFD645E75BDE0871FFC0DBE52E59 /* Pods-Jiyong-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A4A17545DE5990762B7F18E119A4D340 /* Pods-Jiyong-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B8EA814D68B037EFAD53944897A975CD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		C4CBE359A3B7115B838BC7FBD40D822E /* RAMAnimatedTabBarController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E734DC81903D302362657FB550E4427D /* RAMAnimatedTabBarController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DA08B965B2D868FDE72172829DA59E84 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		E19915569453F6164011BAC1E4DEFBCD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		E2ED4D17813D0E27344028D12DAF0A84 /* RAMItemAnimationProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C00B91C7AAA98C14298B2318E34BC3 /* RAMItemAnimationProtocol.swift */; };
-		EF5EDCDDCD09D8262364209AB8D7D98D /* Pods-JiyongTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DC38A6267CA088E0AC6EE56F99599484 /* Pods-JiyongTests-dummy.m */; };
-		F334A3DBB5DA7244CBCAB116C6ED612C /* RAMFrameItemAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC510AB60276142AAE9F0F468783A86 /* RAMFrameItemAnimation.swift */; };
+		B4AC1301F3FAD1A9DE7CAF7709115D1E /* LayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED85E57E8874E06BD56B70F0F85A10EC /* LayoutConstraint.swift */; };
+		B63C51F54030799DEF956A0DF0C66E7B /* Pods-Jiyong-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A4A17545DE5990762B7F18E119A4D340 /* Pods-Jiyong-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA3CAC6DDCB3B8BB29927F7C7A7CBB2C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		C7D089E1E881C15F7BF058C28FCCB551 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		D99A5227E443B137DDAD30272374788F /* Pods-Jiyong-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E88FD53A3AF55BC8F811BEC855D8827E /* Pods-Jiyong-dummy.m */; };
+		E15AE6966631ACC34EC10E6750AF6EE5 /* RAMBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8E37778BFB99039B9603974394D78A /* RAMBadge.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0EDCB73E42FECE6E511FFDCE339B9A3C /* PBXContainerItemProxy */ = {
+		C32A84587539C5E065BB82BF24D8D3D6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 4B0120E351EBB8B2F509DA3F8304FD09;
+			remoteGlobalIDString = FBEFA1505E7C36DE6EF302099359D5A4;
+			remoteInfo = SnapKit;
+		};
+		E5B9E37D1813E6E43A219C9A89CDDED0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02EF0D3B9B5D6332178D60833CE3B420;
 			remoteInfo = RAMAnimatedTabBarController;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02A4B58A07C36A6E9B57760DEDE6C3BE /* RAMAnimatedTabBarController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = RAMAnimatedTabBarController.modulemap; sourceTree = "<group>"; };
+		03FB69CCFCDD89152CED7889443066DE /* ConstraintMaker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMaker.swift; path = Source/ConstraintMaker.swift; sourceTree = "<group>"; };
+		063AA66D85DC6DD1A895C959020F2F18 /* Pods_JiyongUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JiyongUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C8BE04B9D62DDD6158132D43023F119 /* Pods-Jiyong.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Jiyong.modulemap"; sourceTree = "<group>"; };
+		0FDE1C81D7B8459FA5C29C494E1BF40A /* ConstraintAttributes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintAttributes.swift; path = Source/ConstraintAttributes.swift; sourceTree = "<group>"; };
+		107576165E7F96BDA3553F4BD42EA039 /* EdgeInsets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EdgeInsets.swift; path = Source/EdgeInsets.swift; sourceTree = "<group>"; };
+		112D5E52DBA81772423203596D8030D9 /* RAMAnimatedTabBarController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RAMAnimatedTabBarController-umbrella.h"; sourceTree = "<group>"; };
+		15E804DB7FDDD934B35287612A35FDF0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		241B56F6F17DE1A8A5B96B3268FA0D15 /* Pods-JiyongUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JiyongUITests-frameworks.sh"; sourceTree = "<group>"; };
 		2FA4D6DC313430E0D1E4A491E102434F /* Pods-JiyongTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JiyongTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2FE70FBA8F13E34038BB6DC33D6E1622 /* Pods_Jiyong.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Jiyong.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		33542C5F14C1017739B69EA00B879C8E /* Pods-JiyongTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JiyongTests.release.xcconfig"; sourceTree = "<group>"; };
+		366A3A25C2A9C5DC3ABB52CFDEF281E1 /* SnapKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SnapKit.modulemap; sourceTree = "<group>"; };
 		3AE68071FEBE410F6AB1B10380B0A3D5 /* Pods-JiyongTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JiyongTests-umbrella.h"; sourceTree = "<group>"; };
 		3B2F46672ADB2EDA9497946AC075E5D4 /* Pods-JiyongUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JiyongUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		3C049F3005CA6A4E761514A28C7B78FE /* RAMAnimatedTabBarController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RAMAnimatedTabBarController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DD573FA5BC508A2741969E418369C55 /* Pods-JiyongUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JiyongUITests-umbrella.h"; sourceTree = "<group>"; };
-		42654EBCDD1653775E88840823C27686 /* RAMAnimatedTabBarController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RAMAnimatedTabBarController-dummy.m"; sourceTree = "<group>"; };
+		40C41A79C451B0772D9A3B84FD971BD7 /* RAMItemAnimationProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RAMItemAnimationProtocol.swift; path = RAMAnimatedTabBarController/RAMItemAnimationProtocol.swift; sourceTree = "<group>"; };
 		43D84CCDEBBB9EE358CEF1B14C3D3619 /* Pods-JiyongTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JiyongTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5274CF19AB3276E89A57A92F21E660D6 /* ViewController+SnapKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ViewController+SnapKit.swift"; path = "Source/ViewController+SnapKit.swift"; sourceTree = "<group>"; };
+		5E5C617877DA5B0EFCACF8591EFD89B2 /* SnapKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-umbrella.h"; sourceTree = "<group>"; };
 		5ECEA8DAE124CE7AF4030483B794C2B7 /* Pods-Jiyong-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Jiyong-acknowledgements.markdown"; sourceTree = "<group>"; };
-		69BAAB3A254E2F8C9888A9184B2F7B54 /* RAMBadge.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RAMBadge.swift; path = RAMAnimatedTabBarController/RAMBadge/RAMBadge.swift; sourceTree = "<group>"; };
 		6B4BDA5B36565DB137510B536F2F53E5 /* Pods-JiyongTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JiyongTests-resources.sh"; sourceTree = "<group>"; };
-		6BCB231D68540E8E967119AC8A86CE2D /* Pods_Jiyong.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Jiyong.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6BFC6BA3F7D1F857AF3DD782A5DB34E4 /* Pods_JiyongTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JiyongTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		709EB04AE84935C75DC25A4B8840166C /* RAMAnimatedTabBarController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RAMAnimatedTabBarController-dummy.m"; sourceTree = "<group>"; };
 		7171A32F0658776444A835683C41D6AF /* Pods-JiyongUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JiyongUITests-dummy.m"; sourceTree = "<group>"; };
-		71C00B91C7AAA98C14298B2318E34BC3 /* RAMItemAnimationProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RAMItemAnimationProtocol.swift; path = RAMAnimatedTabBarController/RAMItemAnimationProtocol.swift; sourceTree = "<group>"; };
+		74CC250FD5BD68F38A4753ED43658109 /* Constraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constraint.swift; path = Source/Constraint.swift; sourceTree = "<group>"; };
+		77D9846A8E74FA87B52E428E7761BE79 /* RAMAnimatedTabBarController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RAMAnimatedTabBarController-prefix.pch"; sourceTree = "<group>"; };
 		781AF4AA9A4D2E401DDDBF6328E6194A /* Pods-JiyongUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JiyongUITests.release.xcconfig"; sourceTree = "<group>"; };
 		7A1E4075B62C41BB2D72BEF175CE782A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7EC510AB60276142AAE9F0F468783A86 /* RAMFrameItemAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RAMFrameItemAnimation.swift; path = RAMAnimatedTabBarController/Animations/FrameAnimation/RAMFrameItemAnimation.swift; sourceTree = "<group>"; };
-		7F43DC193F72F85F23F11933E6ADA518 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		84023D8039CB078CEEB1EDF8D240DAF5 /* RAMRotationAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RAMRotationAnimation.swift; path = RAMAnimatedTabBarController/Animations/RotationAnimation/RAMRotationAnimation.swift; sourceTree = "<group>"; };
-		8C5D21B9D6706FBB1A35B9C7047F4913 /* RAMTransitionItemAnimations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RAMTransitionItemAnimations.swift; path = RAMAnimatedTabBarController/Animations/TransitionAniamtions/RAMTransitionItemAnimations.swift; sourceTree = "<group>"; };
+		7B9448D057ACA199922B57B7177C382D /* Debugging.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Debugging.swift; path = Source/Debugging.swift; sourceTree = "<group>"; };
+		82958E005DD2E17467E6505C43CA8B1B /* RAMAnimatedTabBarController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RAMAnimatedTabBarController.swift; path = RAMAnimatedTabBarController/RAMAnimatedTabBarController.swift; sourceTree = "<group>"; };
+		83F96219A0D1FB8E7AFA1925EBDC6AC3 /* Pods_JiyongTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JiyongTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8981759FF7319224E8135867D2E9E26D /* ConstraintRelation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelation.swift; path = Source/ConstraintRelation.swift; sourceTree = "<group>"; };
+		8D17B3021F74974906F1DAD38C0687E7 /* RAMAnimatedTabBarController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RAMAnimatedTabBarController.xcconfig; sourceTree = "<group>"; };
 		93117E5B038867D2013E07E86CB161BD /* Pods-Jiyong-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Jiyong-frameworks.sh"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9EDFEF99A4904A4A25D173A387E7A49A /* SnapKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-prefix.pch"; sourceTree = "<group>"; };
+		A302D562C7977E8D83B6A126CD747715 /* SnapKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SnapKit.swift; path = Source/SnapKit.swift; sourceTree = "<group>"; };
 		A4A17545DE5990762B7F18E119A4D340 /* Pods-Jiyong-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Jiyong-umbrella.h"; sourceTree = "<group>"; };
 		A59B170BB6465367A0B2178E9FB1CA98 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC06A2745888CF2994EDE03ADE0FAE28 /* SnapKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SnapKit-dummy.m"; sourceTree = "<group>"; };
+		AD57698015949B28A45CCEDA65D96E31 /* RAMTransitionItemAnimations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RAMTransitionItemAnimations.swift; path = RAMAnimatedTabBarController/Animations/TransitionAniamtions/RAMTransitionItemAnimations.swift; sourceTree = "<group>"; };
+		ADFD2220A28D08B105D9318A061AFD35 /* ConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintItem.swift; path = Source/ConstraintItem.swift; sourceTree = "<group>"; };
 		AF7ABEFCBCC0DEBF85D8F3F04AC2D3D1 /* Pods-JiyongUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JiyongUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		B219C7C94F74C9623C1D991F741D984E /* RAMAnimatedTabBarController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RAMAnimatedTabBarController.swift; path = RAMAnimatedTabBarController/RAMAnimatedTabBarController.swift; sourceTree = "<group>"; };
-		B515A64C42A3818CBD3F3A1902B8D443 /* RAMFumeAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RAMFumeAnimation.swift; path = RAMAnimatedTabBarController/Animations/FumeAnimation/RAMFumeAnimation.swift; sourceTree = "<group>"; };
 		BC9F014C5F532771AC22BDC9D99F7929 /* Pods-JiyongTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-JiyongTests.modulemap"; sourceTree = "<group>"; };
 		BD1B3A30882001CB92FCD012F7DFBC30 /* Pods-JiyongTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JiyongTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C1341DD8359A4DB3B2096770EE3C6D1F /* RAMFrameItemAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RAMFrameItemAnimation.swift; path = RAMAnimatedTabBarController/Animations/FrameAnimation/RAMFrameItemAnimation.swift; sourceTree = "<group>"; };
 		C5929E99DB80B61564C1461D4672D554 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C8A27A29BB4B1BD592C40E65CB5E6345 /* RAMAnimatedTabBarController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = RAMAnimatedTabBarController.modulemap; sourceTree = "<group>"; };
 		CDC6B85FF626A17856A4E56E6AF586BA /* Pods-JiyongUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-JiyongUITests.modulemap"; sourceTree = "<group>"; };
 		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		CF53F8A8BE5E7A569BCA9479848ECD7A /* Pods-Jiyong-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Jiyong-acknowledgements.plist"; sourceTree = "<group>"; };
 		D017D8ED1A7FFB4B50419DF96BB85975 /* Pods-Jiyong-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Jiyong-resources.sh"; sourceTree = "<group>"; };
-		D6DF1FAE883945675D63B833E9F7DCC5 /* RAMAnimatedTabBarController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RAMAnimatedTabBarController.xcconfig; sourceTree = "<group>"; };
-		DB6DD9C6C299B861632A0D3FF43835C5 /* Pods_JiyongUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JiyongUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3D8723241C07D3BB00C66E92C195DCB /* ConstraintDescription.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDescription.swift; path = Source/ConstraintDescription.swift; sourceTree = "<group>"; };
+		D4FFC0642CB3D59F2A723D42F8851944 /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D904A63DA17CE1FE4C10F150FDF76BF3 /* RAMBounceAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RAMBounceAnimation.swift; path = RAMAnimatedTabBarController/Animations/BounceAnimation/RAMBounceAnimation.swift; sourceTree = "<group>"; };
 		DC38A6267CA088E0AC6EE56F99599484 /* Pods-JiyongTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JiyongTests-dummy.m"; sourceTree = "<group>"; };
+		DF4BE09E48699F4DCEA7A1579C4A26F4 /* RAMFumeAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RAMFumeAnimation.swift; path = RAMAnimatedTabBarController/Animations/FumeAnimation/RAMFumeAnimation.swift; sourceTree = "<group>"; };
 		E66E16E62BE94CFE5756CD71C04CBE2A /* Pods-Jiyong.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Jiyong.debug.xcconfig"; sourceTree = "<group>"; };
-		E734DC81903D302362657FB550E4427D /* RAMAnimatedTabBarController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RAMAnimatedTabBarController-umbrella.h"; sourceTree = "<group>"; };
-		E75D0C64489FA2B2726F7C6F79174878 /* RAMAnimatedTabBarController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RAMAnimatedTabBarController-prefix.pch"; sourceTree = "<group>"; };
 		E88FD53A3AF55BC8F811BEC855D8827E /* Pods-Jiyong-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Jiyong-dummy.m"; sourceTree = "<group>"; };
+		EA73DCA82387908EAB530EF03634D31D /* RAMAnimatedTabBarController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RAMAnimatedTabBarController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA9E4D6BED613AA3121AA8CB62C88548 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB681A850AFC33D5AEF8A73A1E783DEE /* SnapKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SnapKit.xcconfig; sourceTree = "<group>"; };
+		ED0A764D9684EFECC0BAFEE8C8A9B979 /* RAMRotationAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RAMRotationAnimation.swift; path = RAMAnimatedTabBarController/Animations/RotationAnimation/RAMRotationAnimation.swift; sourceTree = "<group>"; };
 		ED59ABFA489DF8AA23B13382CA3E85C0 /* Pods-JiyongTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JiyongTests-frameworks.sh"; sourceTree = "<group>"; };
-		EF2445545968E24E9401AF006077B5FD /* RAMBounceAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RAMBounceAnimation.swift; path = RAMAnimatedTabBarController/Animations/BounceAnimation/RAMBounceAnimation.swift; sourceTree = "<group>"; };
+		ED85E57E8874E06BD56B70F0F85A10EC /* LayoutConstraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraint.swift; path = Source/LayoutConstraint.swift; sourceTree = "<group>"; };
 		F2E975A254C8534C96161154F52A97DE /* Pods-JiyongUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JiyongUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		F5A861B316BFC7737FF2DE2FBE13BF15 /* Pods-JiyongUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JiyongUITests-resources.sh"; sourceTree = "<group>"; };
 		F77580B579527E96806C2EA887D418FA /* Pods-Jiyong.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Jiyong.release.xcconfig"; sourceTree = "<group>"; };
+		F7A8EA05072942DE2281EE7D0A852250 /* View+SnapKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "View+SnapKit.swift"; path = "Source/View+SnapKit.swift"; sourceTree = "<group>"; };
+		FB8E37778BFB99039B9603974394D78A /* RAMBadge.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RAMBadge.swift; path = RAMAnimatedTabBarController/RAMBadge/RAMBadge.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		113A5D2F53E89FB015BEB989CB000F9F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E19915569453F6164011BAC1E4DEFBCD /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		475334D0ADFABDE8BD72D19E6B98E926 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -109,19 +142,35 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9210D3DAD0B2FCD6D9C2C78BD63D27CF /* Frameworks */ = {
+		4A9FCB18042983CD486CEDC7F113793E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA08B965B2D868FDE72172829DA59E84 /* Foundation.framework in Frameworks */,
+				BA3CAC6DDCB3B8BB29927F7C7A7CBB2C /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F1D3B5AD47C6B499BDF1537BF0537187 /* Frameworks */ = {
+		A2A2842CC9A53816C6FF497BC4417083 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B8EA814D68B037EFAD53944897A975CD /* Foundation.framework in Frameworks */,
+				6FDA74383D2DC4332671ABA0929F2670 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A359FAB64F8F97F48D823D9CCEA26803 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7D089E1E881C15F7BF058C28FCCB551 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F23C85A771463E6F2CF5C06893CB8ECA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E46FF3242658F1E1D6A1C30B03A1AC5 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,12 +195,35 @@
 			path = "Target Support Files/Pods-JiyongTests";
 			sourceTree = "<group>";
 		};
+		1C6C9CF9979A52099060314EC1B2F5E9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				988F95CB06438CE53E4EB337A36CB790 /* RAMAnimatedTabBarController */,
+				56E9EF853178E0CE427FF3724BEEDB4A /* SnapKit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
 				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		40F703C063C10E475040AAB8985E0CFE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				15E804DB7FDDD934B35287612A35FDF0 /* Info.plist */,
+				366A3A25C2A9C5DC3ABB52CFDEF281E1 /* SnapKit.modulemap */,
+				EB681A850AFC33D5AEF8A73A1E783DEE /* SnapKit.xcconfig */,
+				AC06A2745888CF2994EDE03ADE0FAE28 /* SnapKit-dummy.m */,
+				9EDFEF99A4904A4A25D173A387E7A49A /* SnapKit-prefix.pch */,
+				5E5C617877DA5B0EFCACF8591EFD89B2 /* SnapKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SnapKit";
 			sourceTree = "<group>";
 		};
 		4BB30BB0A7E5AFB81A876D4E16BBE71C /* Pods-JiyongUITests */ = {
@@ -172,12 +244,24 @@
 			path = "Target Support Files/Pods-JiyongUITests";
 			sourceTree = "<group>";
 		};
-		5BC7936933AD004FBD1FC68B2C6FD2F7 /* Pods */ = {
+		56E9EF853178E0CE427FF3724BEEDB4A /* SnapKit */ = {
 			isa = PBXGroup;
 			children = (
-				A672D7EED91E4A7ACD601BAE53E66F72 /* RAMAnimatedTabBarController */,
+				74CC250FD5BD68F38A4753ED43658109 /* Constraint.swift */,
+				0FDE1C81D7B8459FA5C29C494E1BF40A /* ConstraintAttributes.swift */,
+				D3D8723241C07D3BB00C66E92C195DCB /* ConstraintDescription.swift */,
+				ADFD2220A28D08B105D9318A061AFD35 /* ConstraintItem.swift */,
+				03FB69CCFCDD89152CED7889443066DE /* ConstraintMaker.swift */,
+				8981759FF7319224E8135867D2E9E26D /* ConstraintRelation.swift */,
+				7B9448D057ACA199922B57B7177C382D /* Debugging.swift */,
+				107576165E7F96BDA3553F4BD42EA039 /* EdgeInsets.swift */,
+				ED85E57E8874E06BD56B70F0F85A10EC /* LayoutConstraint.swift */,
+				A302D562C7977E8D83B6A126CD747715 /* SnapKit.swift */,
+				F7A8EA05072942DE2281EE7D0A852250 /* View+SnapKit.swift */,
+				5274CF19AB3276E89A57A92F21E660D6 /* ViewController+SnapKit.swift */,
+				40F703C063C10E475040AAB8985E0CFE /* Support Files */,
 			);
-			name = Pods;
+			path = SnapKit;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -185,8 +269,8 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				5BC7936933AD004FBD1FC68B2C6FD2F7 /* Pods */,
-				8577200DCB49231F6272BDE21B29CF02 /* Products */,
+				1C6C9CF9979A52099060314EC1B2F5E9 /* Pods */,
+				F5B7C9F1F7F9CDF9A0847F9AB4F651B6 /* Products */,
 				8089F10EEF145C47CE0A6899265A019B /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -201,29 +285,18 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		8577200DCB49231F6272BDE21B29CF02 /* Products */ = {
+		988F95CB06438CE53E4EB337A36CB790 /* RAMAnimatedTabBarController */ = {
 			isa = PBXGroup;
 			children = (
-				6BCB231D68540E8E967119AC8A86CE2D /* Pods_Jiyong.framework */,
-				6BFC6BA3F7D1F857AF3DD782A5DB34E4 /* Pods_JiyongTests.framework */,
-				DB6DD9C6C299B861632A0D3FF43835C5 /* Pods_JiyongUITests.framework */,
-				3C049F3005CA6A4E761514A28C7B78FE /* RAMAnimatedTabBarController.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		A672D7EED91E4A7ACD601BAE53E66F72 /* RAMAnimatedTabBarController */ = {
-			isa = PBXGroup;
-			children = (
-				B219C7C94F74C9623C1D991F741D984E /* RAMAnimatedTabBarController.swift */,
-				69BAAB3A254E2F8C9888A9184B2F7B54 /* RAMBadge.swift */,
-				EF2445545968E24E9401AF006077B5FD /* RAMBounceAnimation.swift */,
-				7EC510AB60276142AAE9F0F468783A86 /* RAMFrameItemAnimation.swift */,
-				B515A64C42A3818CBD3F3A1902B8D443 /* RAMFumeAnimation.swift */,
-				71C00B91C7AAA98C14298B2318E34BC3 /* RAMItemAnimationProtocol.swift */,
-				84023D8039CB078CEEB1EDF8D240DAF5 /* RAMRotationAnimation.swift */,
-				8C5D21B9D6706FBB1A35B9C7047F4913 /* RAMTransitionItemAnimations.swift */,
-				F2629F9AB7CADEF7D3FE8CBD53B81ABC /* Support Files */,
+				82958E005DD2E17467E6505C43CA8B1B /* RAMAnimatedTabBarController.swift */,
+				FB8E37778BFB99039B9603974394D78A /* RAMBadge.swift */,
+				D904A63DA17CE1FE4C10F150FDF76BF3 /* RAMBounceAnimation.swift */,
+				C1341DD8359A4DB3B2096770EE3C6D1F /* RAMFrameItemAnimation.swift */,
+				DF4BE09E48699F4DCEA7A1579C4A26F4 /* RAMFumeAnimation.swift */,
+				40C41A79C451B0772D9A3B84FD971BD7 /* RAMItemAnimationProtocol.swift */,
+				ED0A764D9684EFECC0BAFEE8C8A9B979 /* RAMRotationAnimation.swift */,
+				AD57698015949B28A45CCEDA65D96E31 /* RAMTransitionItemAnimations.swift */,
+				DF78AEFC69F5E09A53DD72790DFD464B /* Support Files */,
 			);
 			path = RAMAnimatedTabBarController;
 			sourceTree = "<group>";
@@ -254,18 +327,30 @@
 			path = "Target Support Files/Pods-Jiyong";
 			sourceTree = "<group>";
 		};
-		F2629F9AB7CADEF7D3FE8CBD53B81ABC /* Support Files */ = {
+		DF78AEFC69F5E09A53DD72790DFD464B /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				7F43DC193F72F85F23F11933E6ADA518 /* Info.plist */,
-				C8A27A29BB4B1BD592C40E65CB5E6345 /* RAMAnimatedTabBarController.modulemap */,
-				D6DF1FAE883945675D63B833E9F7DCC5 /* RAMAnimatedTabBarController.xcconfig */,
-				42654EBCDD1653775E88840823C27686 /* RAMAnimatedTabBarController-dummy.m */,
-				E75D0C64489FA2B2726F7C6F79174878 /* RAMAnimatedTabBarController-prefix.pch */,
-				E734DC81903D302362657FB550E4427D /* RAMAnimatedTabBarController-umbrella.h */,
+				EA9E4D6BED613AA3121AA8CB62C88548 /* Info.plist */,
+				02A4B58A07C36A6E9B57760DEDE6C3BE /* RAMAnimatedTabBarController.modulemap */,
+				8D17B3021F74974906F1DAD38C0687E7 /* RAMAnimatedTabBarController.xcconfig */,
+				709EB04AE84935C75DC25A4B8840166C /* RAMAnimatedTabBarController-dummy.m */,
+				77D9846A8E74FA87B52E428E7761BE79 /* RAMAnimatedTabBarController-prefix.pch */,
+				112D5E52DBA81772423203596D8030D9 /* RAMAnimatedTabBarController-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/RAMAnimatedTabBarController";
+			sourceTree = "<group>";
+		};
+		F5B7C9F1F7F9CDF9A0847F9AB4F651B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2FE70FBA8F13E34038BB6DC33D6E1622 /* Pods_Jiyong.framework */,
+				83F96219A0D1FB8E7AFA1925EBDC6AC3 /* Pods_JiyongTests.framework */,
+				063AA66D85DC6DD1A895C959020F2F18 /* Pods_JiyongUITests.framework */,
+				EA73DCA82387908EAB530EF03634D31D /* RAMAnimatedTabBarController.framework */,
+				D4FFC0642CB3D59F2A723D42F8851944 /* SnapKit.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -279,33 +364,58 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		551E0BB4681F3CAEE96BEF9885E7A77E /* Headers */ = {
+		493907D29359C9090ABE3CBFE6ADCD75 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0FECFD645E75BDE0871FFC0DBE52E59 /* Pods-Jiyong-umbrella.h in Headers */,
+				A158CF6C4AFAE3FDB052146D2DD439BF /* Pods-JiyongTests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AACE3D2F9CF0B9F361E071749D98876A /* Headers */ = {
+		ADA10BE9578CDD843C1B82B2C99D5AF5 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B6291DCDFE62CE140232F67222BC2BF /* Pods-JiyongTests-umbrella.h in Headers */,
+				17C61B3ADD180C2BAAC3FD4495B49992 /* SnapKit-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D007B80192823E9841A10B1F7E11B6FC /* Headers */ = {
+		B05AF5AB2BA2948B010FE8C2459EF1D3 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4CBE359A3B7115B838BC7FBD40D822E /* RAMAnimatedTabBarController-umbrella.h in Headers */,
+				B63C51F54030799DEF956A0DF0C66E7B /* Pods-Jiyong-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B806ECF78D4211B904660AC9A32DAF90 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD537501456B9ED5F180D591109C8825 /* RAMAnimatedTabBarController-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		02EF0D3B9B5D6332178D60833CE3B420 /* RAMAnimatedTabBarController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88F15C9F19B6CFB46CA7BE0FF8CF077E /* Build configuration list for PBXNativeTarget "RAMAnimatedTabBarController" */;
+			buildPhases = (
+				2133DBAA484960843325F6F8AD037C5E /* Sources */,
+				A359FAB64F8F97F48D823D9CCEA26803 /* Frameworks */,
+				B806ECF78D4211B904660AC9A32DAF90 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RAMAnimatedTabBarController;
+			productName = RAMAnimatedTabBarController;
+			productReference = EA73DCA82387908EAB530EF03634D31D /* RAMAnimatedTabBarController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		0570343FF8D64509CB62391CBB483460 /* Pods-JiyongUITests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6F060C6BB0B9491E84470BCCA84CDCF3 /* Build configuration list for PBXNativeTarget "Pods-JiyongUITests" */;
@@ -320,59 +430,60 @@
 			);
 			name = "Pods-JiyongUITests";
 			productName = "Pods-JiyongUITests";
-			productReference = DB6DD9C6C299B861632A0D3FF43835C5 /* Pods_JiyongUITests.framework */;
+			productReference = 063AA66D85DC6DD1A895C959020F2F18 /* Pods_JiyongUITests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		29F29C1C2A10D01BEAEF7A359D17F4E9 /* Pods-JiyongTests */ = {
+		0710F49F907EAAC48DB8CA06636F2EE1 /* Pods-Jiyong */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 37450F416F462F6CEE85A69B3FA6DCB1 /* Build configuration list for PBXNativeTarget "Pods-JiyongTests" */;
+			buildConfigurationList = C40D910C98B85CE48E9FC146B54E4176 /* Build configuration list for PBXNativeTarget "Pods-Jiyong" */;
 			buildPhases = (
-				F60FB911BC059D7972B22BE5D2C50EB8 /* Sources */,
-				9210D3DAD0B2FCD6D9C2C78BD63D27CF /* Frameworks */,
-				AACE3D2F9CF0B9F361E071749D98876A /* Headers */,
+				FF7D72C710B814844348D360E3E9DB46 /* Sources */,
+				4A9FCB18042983CD486CEDC7F113793E /* Frameworks */,
+				B05AF5AB2BA2948B010FE8C2459EF1D3 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				C07960E2F38B5D4A7B328489D45BAABE /* PBXTargetDependency */,
-			);
-			name = "Pods-JiyongTests";
-			productName = "Pods-JiyongTests";
-			productReference = 6BFC6BA3F7D1F857AF3DD782A5DB34E4 /* Pods_JiyongTests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		4B0120E351EBB8B2F509DA3F8304FD09 /* RAMAnimatedTabBarController */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 390A178D97A6570F11FF9AFFB72D9B10 /* Build configuration list for PBXNativeTarget "RAMAnimatedTabBarController" */;
-			buildPhases = (
-				9A8B8A799DF72964BD3DBBCE76F0AAE2 /* Sources */,
-				113A5D2F53E89FB015BEB989CB000F9F /* Frameworks */,
-				D007B80192823E9841A10B1F7E11B6FC /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = RAMAnimatedTabBarController;
-			productName = RAMAnimatedTabBarController;
-			productReference = 3C049F3005CA6A4E761514A28C7B78FE /* RAMAnimatedTabBarController.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		8A6FCA0C25310B7345A8BFD8EE6B0AE8 /* Pods-Jiyong */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4B6B20055EBAA3B2E1733C780A759A68 /* Build configuration list for PBXNativeTarget "Pods-Jiyong" */;
-			buildPhases = (
-				0D2B7ECAD0F38BE266F8D5B164106D55 /* Sources */,
-				F1D3B5AD47C6B499BDF1537BF0537187 /* Frameworks */,
-				551E0BB4681F3CAEE96BEF9885E7A77E /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
+				75C1FD792B935D0FC06E474572ED8767 /* PBXTargetDependency */,
+				3A2EC3C669C7A6CB812C5C8681245002 /* PBXTargetDependency */,
 			);
 			name = "Pods-Jiyong";
 			productName = "Pods-Jiyong";
-			productReference = 6BCB231D68540E8E967119AC8A86CE2D /* Pods_Jiyong.framework */;
+			productReference = 2FE70FBA8F13E34038BB6DC33D6E1622 /* Pods_Jiyong.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2DA412BA1C27DC480D7CCBB074BDDDAC /* Pods-JiyongTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2ACAB3528A2B8122A2B47DACF7B85BF /* Build configuration list for PBXNativeTarget "Pods-JiyongTests" */;
+			buildPhases = (
+				8E4A7978FE56EFADB842661C5D5AC691 /* Sources */,
+				F23C85A771463E6F2CF5C06893CB8ECA /* Frameworks */,
+				493907D29359C9090ABE3CBFE6ADCD75 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-JiyongTests";
+			productName = "Pods-JiyongTests";
+			productReference = 83F96219A0D1FB8E7AFA1925EBDC6AC3 /* Pods_JiyongTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FBEFA1505E7C36DE6EF302099359D5A4 /* SnapKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EDAB9842016D6DF7C5C95F7C37B468E /* Build configuration list for PBXNativeTarget "SnapKit" */;
+			buildPhases = (
+				82DCBF602D1F6D28D0A4D5138606341F /* Sources */,
+				A2A2842CC9A53816C6FF497BC4417083 /* Frameworks */,
+				ADA10BE9578CDD843C1B82B2C99D5AF5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SnapKit;
+			productName = SnapKit;
+			productReference = D4FFC0642CB3D59F2A723D42F8851944 /* SnapKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -392,40 +503,61 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 8577200DCB49231F6272BDE21B29CF02 /* Products */;
+			productRefGroup = F5B7C9F1F7F9CDF9A0847F9AB4F651B6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8A6FCA0C25310B7345A8BFD8EE6B0AE8 /* Pods-Jiyong */,
-				29F29C1C2A10D01BEAEF7A359D17F4E9 /* Pods-JiyongTests */,
+				0710F49F907EAAC48DB8CA06636F2EE1 /* Pods-Jiyong */,
+				2DA412BA1C27DC480D7CCBB074BDDDAC /* Pods-JiyongTests */,
 				0570343FF8D64509CB62391CBB483460 /* Pods-JiyongUITests */,
-				4B0120E351EBB8B2F509DA3F8304FD09 /* RAMAnimatedTabBarController */,
+				02EF0D3B9B5D6332178D60833CE3B420 /* RAMAnimatedTabBarController */,
+				FBEFA1505E7C36DE6EF302099359D5A4 /* SnapKit */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0D2B7ECAD0F38BE266F8D5B164106D55 /* Sources */ = {
+		2133DBAA484960843325F6F8AD037C5E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				17C957B9F9F44679DB83820BB0A190D9 /* Pods-Jiyong-dummy.m in Sources */,
+				63176BE0D08065BAE6428D8EB1CB6B30 /* RAMAnimatedTabBarController-dummy.m in Sources */,
+				8E73968FC7184932B6D391B938247206 /* RAMAnimatedTabBarController.swift in Sources */,
+				E15AE6966631ACC34EC10E6750AF6EE5 /* RAMBadge.swift in Sources */,
+				8278252D0AFC1CD5F161829D444C287A /* RAMBounceAnimation.swift in Sources */,
+				6AE1276288184512756A1DF1106F0375 /* RAMFrameItemAnimation.swift in Sources */,
+				6172E11D6283BC8E41E85AD317017A85 /* RAMFumeAnimation.swift in Sources */,
+				7174FB990D38B2229DBB0C02E586E810 /* RAMItemAnimationProtocol.swift in Sources */,
+				066F02A11DC32437BE15D7F964D401B6 /* RAMRotationAnimation.swift in Sources */,
+				31E0A3FFDC91DFD9B311FBFFC98DF8BC /* RAMTransitionItemAnimations.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9A8B8A799DF72964BD3DBBCE76F0AAE2 /* Sources */ = {
+		82DCBF602D1F6D28D0A4D5138606341F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				163C745592C883AC1F6CF36D2EB7075C /* RAMAnimatedTabBarController-dummy.m in Sources */,
-				9CD79AE06B7AD3E77C2B469B50FD4414 /* RAMAnimatedTabBarController.swift in Sources */,
-				704FBCCF1DC5CBD349BEBB8860725D7B /* RAMBadge.swift in Sources */,
-				69E4D1176AA9BF8193EC7686C880C250 /* RAMBounceAnimation.swift in Sources */,
-				F334A3DBB5DA7244CBCAB116C6ED612C /* RAMFrameItemAnimation.swift in Sources */,
-				6DCF4DE78B717018ED840BC3E10E6398 /* RAMFumeAnimation.swift in Sources */,
-				E2ED4D17813D0E27344028D12DAF0A84 /* RAMItemAnimationProtocol.swift in Sources */,
-				188EB0D2D497DEB94E5A3D1A054680CD /* RAMRotationAnimation.swift in Sources */,
-				71E8E79A36CA94D8C980B7FE31285B2C /* RAMTransitionItemAnimations.swift in Sources */,
+				6728E93502772D13428ABDD5C82AA569 /* Constraint.swift in Sources */,
+				1FB67EE5093076986BC256B7495BE8CA /* ConstraintAttributes.swift in Sources */,
+				870C7427D51AB53BDC0CBF59B5ECB110 /* ConstraintDescription.swift in Sources */,
+				68704025503854E90075354803E14408 /* ConstraintItem.swift in Sources */,
+				94449945381BD0026120BAFC175E30FA /* ConstraintMaker.swift in Sources */,
+				59C43251E4457DAFF50C26424AC814EF /* ConstraintRelation.swift in Sources */,
+				8353F68EA86724972B535C501220B657 /* Debugging.swift in Sources */,
+				30168B3855A77730E22241168FC9CA78 /* EdgeInsets.swift in Sources */,
+				B4AC1301F3FAD1A9DE7CAF7709115D1E /* LayoutConstraint.swift in Sources */,
+				1BA2AC3CFEC452AC232A0D1D9DF6F008 /* SnapKit-dummy.m in Sources */,
+				5277F9E3404E14DCC66A3D5E0587A0FC /* SnapKit.swift in Sources */,
+				2E52EAEE7A560E741A5E6AC0819DE6E8 /* View+SnapKit.swift in Sources */,
+				31458F8AE01D279EA3F1032D534D0FF3 /* ViewController+SnapKit.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E4A7978FE56EFADB842661C5D5AC691 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95414F34AE71BA0A1572759CCE3593F5 /* Pods-JiyongTests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,26 +569,66 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F60FB911BC059D7972B22BE5D2C50EB8 /* Sources */ = {
+		FF7D72C710B814844348D360E3E9DB46 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF5EDCDDCD09D8262364209AB8D7D98D /* Pods-JiyongTests-dummy.m in Sources */,
+				D99A5227E443B137DDAD30272374788F /* Pods-Jiyong-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		C07960E2F38B5D4A7B328489D45BAABE /* PBXTargetDependency */ = {
+		3A2EC3C669C7A6CB812C5C8681245002 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SnapKit;
+			target = FBEFA1505E7C36DE6EF302099359D5A4 /* SnapKit */;
+			targetProxy = C32A84587539C5E065BB82BF24D8D3D6 /* PBXContainerItemProxy */;
+		};
+		75C1FD792B935D0FC06E474572ED8767 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = RAMAnimatedTabBarController;
-			target = 4B0120E351EBB8B2F509DA3F8304FD09 /* RAMAnimatedTabBarController */;
-			targetProxy = 0EDCB73E42FECE6E511FFDCE339B9A3C /* PBXContainerItemProxy */;
+			target = 02EF0D3B9B5D6332178D60833CE3B420 /* RAMAnimatedTabBarController */;
+			targetProxy = E5B9E37D1813E6E43A219C9A89CDDED0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		0A65B9D5DDEB3E2685E4CC8CCE475ACA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E66E16E62BE94CFE5756CD71C04CBE2A /* Pods-Jiyong.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Jiyong/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Jiyong/Pods-Jiyong.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Jiyong;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		0B702BA1995591956481A872188D6B31 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = AF7ABEFCBCC0DEBF85D8F3F04AC2D3D1 /* Pods-JiyongUITests.debug.xcconfig */;
@@ -523,38 +695,9 @@
 			};
 			name = Release;
 		};
-		2B8E4584BA4FFB68E676C6E968883806 /* Release */ = {
+		1475E0E26EB482B1C69B72B2EF950C4D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D6DF1FAE883945675D63B833E9F7DCC5 /* RAMAnimatedTabBarController.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/RAMAnimatedTabBarController/RAMAnimatedTabBarController-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/RAMAnimatedTabBarController/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/RAMAnimatedTabBarController/RAMAnimatedTabBarController.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = RAMAnimatedTabBarController;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		360E01AF5B99B41452704AEBE4FC17C9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D6DF1FAE883945675D63B833E9F7DCC5 /* RAMAnimatedTabBarController.xcconfig */;
+			baseConfigurationReference = 8D17B3021F74974906F1DAD38C0687E7 /* RAMAnimatedTabBarController.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -581,6 +724,101 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		27DB9A8A988BA42662C437C5B6588CF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D17B3021F74974906F1DAD38C0687E7 /* RAMAnimatedTabBarController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RAMAnimatedTabBarController/RAMAnimatedTabBarController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RAMAnimatedTabBarController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RAMAnimatedTabBarController/RAMAnimatedTabBarController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = RAMAnimatedTabBarController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2EBE170384BAA03E471E54F2B7CE938F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FA4D6DC313430E0D1E4A491E102434F /* Pods-JiyongTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-JiyongTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JiyongTests/Pods-JiyongTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_JiyongTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		43FAE5367D6F9174CE40CEFF9D12FF65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33542C5F14C1017739B69EA00B879C8E /* Pods-JiyongTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-JiyongTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JiyongTests/Pods-JiyongTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_JiyongTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		47BEF9D903506B003EA5C2B249729489 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -624,42 +862,9 @@
 			};
 			name = Debug;
 		};
-		9548FECC40932623D062804C01815E6D /* Release */ = {
+		6F9E0A856E94774F80021807ABD73903 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 33542C5F14C1017739B69EA00B879C8E /* Pods-JiyongTests.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-JiyongTests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-JiyongTests/Pods-JiyongTests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_JiyongTests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		9C54EC1BC9BE4891C5433A85998327A8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2FA4D6DC313430E0D1E4A491E102434F /* Pods-JiyongTests.debug.xcconfig */;
+			baseConfigurationReference = EB681A850AFC33D5AEF8A73A1E783DEE /* SnapKit.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -670,18 +875,14 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-JiyongTests/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/SnapKit/SnapKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SnapKit/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-JiyongTests/Pods-JiyongTests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/SnapKit/SnapKit.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_JiyongTests;
+				PRODUCT_NAME = SnapKit;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -690,6 +891,35 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		9AAA09FD1751D6E092139EB59202CD89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB681A850AFC33D5AEF8A73A1E783DEE /* SnapKit.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SnapKit/SnapKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SnapKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SnapKit/SnapKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SnapKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		AAF678CED40D3499169D10F63CA0719E /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -729,7 +959,7 @@
 			};
 			name = Release;
 		};
-		DB5610919D1BDE092BFC856ED28D7BEC /* Release */ = {
+		EC21CBF5C4F6A21D6728B6DAF831132E /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F77580B579527E96806C2EA887D418FA /* Pods-Jiyong.release.xcconfig */;
 			buildSettings = {
@@ -762,39 +992,6 @@
 			};
 			name = Release;
 		};
-		EA40E16CA73F9348442C530ED49349A0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E66E16E62BE94CFE5756CD71C04CBE2A /* Pods-Jiyong.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Jiyong/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Jiyong/Pods-Jiyong.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Jiyong;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -807,29 +1004,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		37450F416F462F6CEE85A69B3FA6DCB1 /* Build configuration list for PBXNativeTarget "Pods-JiyongTests" */ = {
+		4EDAB9842016D6DF7C5C95F7C37B468E /* Build configuration list for PBXNativeTarget "SnapKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9C54EC1BC9BE4891C5433A85998327A8 /* Debug */,
-				9548FECC40932623D062804C01815E6D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		390A178D97A6570F11FF9AFFB72D9B10 /* Build configuration list for PBXNativeTarget "RAMAnimatedTabBarController" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				360E01AF5B99B41452704AEBE4FC17C9 /* Debug */,
-				2B8E4584BA4FFB68E676C6E968883806 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		4B6B20055EBAA3B2E1733C780A759A68 /* Build configuration list for PBXNativeTarget "Pods-Jiyong" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				EA40E16CA73F9348442C530ED49349A0 /* Debug */,
-				DB5610919D1BDE092BFC856ED28D7BEC /* Release */,
+				6F9E0A856E94774F80021807ABD73903 /* Debug */,
+				9AAA09FD1751D6E092139EB59202CD89 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -839,6 +1018,33 @@
 			buildConfigurations = (
 				0B702BA1995591956481A872188D6B31 /* Debug */,
 				10D50BD8E36C026EFCBDC39D7E0E1F91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88F15C9F19B6CFB46CA7BE0FF8CF077E /* Build configuration list for PBXNativeTarget "RAMAnimatedTabBarController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1475E0E26EB482B1C69B72B2EF950C4D /* Debug */,
+				27DB9A8A988BA42662C437C5B6588CF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C40D910C98B85CE48E9FC146B54E4176 /* Build configuration list for PBXNativeTarget "Pods-Jiyong" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A65B9D5DDEB3E2685E4CC8CCE475ACA /* Debug */,
+				EC21CBF5C4F6A21D6728B6DAF831132E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2ACAB3528A2B8122A2B47DACF7B85BF /* Build configuration list for PBXNativeTarget "Pods-JiyongTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EBE170384BAA03E471E54F2B7CE938F /* Debug */,
+				43FAE5367D6F9174CE40CEFF9D12FF65 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

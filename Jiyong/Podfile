@@ -6,10 +6,12 @@ target 'Jiyong' do
   use_frameworks!
 
   # Pods for Jiyong
+  
+  pod 'RAMAnimatedTabBarController'
+  pod 'SnapKit', '~> 0.15.0'
 
   target 'JiyongTests' do
     inherit! :search_paths
-    pod 'RAMAnimatedTabBarController'
   end
 
   target 'JiyongUITests' do

@@ -1,12 +1,15 @@
 PODS:
   - RAMAnimatedTabBarController (1.5.3)
+  - SnapKit (0.15.0)
 
 DEPENDENCIES:
   - RAMAnimatedTabBarController
+  - SnapKit (~> 0.15.0)
 
 SPEC CHECKSUMS:
   RAMAnimatedTabBarController: 04b624cf8958a0032bf7fa9c0f2c515f59d30b9c
+  SnapKit: 4962eed2ee18e48cbd2b2292fffc57efe7235f87
 
-PODFILE CHECKSUM: 586d75117258b3e4c3464baf3a759c685271ccbf
+PODFILE CHECKSUM: da0adc8eb0404fcf68a6631a5acc6a073b737551
 
 COCOAPODS: 1.0.1
