@@ -1,0 +1,6 @@
+framework module Pods_NearDemo {
+  umbrella header "Pods-NearDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

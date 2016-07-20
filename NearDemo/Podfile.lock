@@ -1,0 +1,25 @@
+PODS:
+  - Alamofire (3.4.1)
+  - AMap2DMap (4.1.0):
+    - AMapFoundation (~> 1.0)
+  - AMapFoundation (1.1.0)
+  - AMapSearch (4.1.0):
+    - AMapFoundation (~> 1.0)
+  - SwiftyJSON (2.3.2)
+
+DEPENDENCIES:
+  - Alamofire
+  - AMap2DMap
+  - AMapSearch
+  - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: 01a82e2f6c0f860ade35534c8dd88be61bdef40c
+  AMap2DMap: 0950d46480e8fdb38a5170450866aecc6dc8c387
+  AMapFoundation: 15db20567e6512422a086a01b42a88b145bc2500
+  AMapSearch: cb4722480d2d4331a032d43bd1070ed0fa55dac9
+  SwiftyJSON: 04ccea08915aa0109039157c7974cf0298da292a
+
+PODFILE CHECKSUM: 64aba19beb891c9eac7d5e14215290e3f182afb2
+
+COCOAPODS: 1.0.1
